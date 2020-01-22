@@ -15,9 +15,6 @@ COPY app.py app.py
 COPY bin/ bin/
 COPY static/ static/
 COPY templates/ templates/
-COPY tmp/ tmp/
-
-COPY test_data/ test_data/
 
 # Expose app port
 EXPOSE 5000
